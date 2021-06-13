@@ -1,2 +1,4 @@
-# kaggle_dataset_timeseriesanalysis_06132021
-Kaggle - Dataset - Time Series Analysis - 06132021
+# ABOUT
+
+- Kaggle - Dataset - Time Series Analysis - 06132021
+- Published: https://rpubs.com/cxh190001/780938
