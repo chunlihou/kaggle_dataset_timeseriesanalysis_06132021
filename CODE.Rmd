@@ -511,8 +511,8 @@ checkresiduals(arima.og, test = F, theme = theme)
 The residual plots from all models look fitted. We decide to check the autocorrelation with the Ljung Box test. Based on the p-value > 0.5, we do not reject the null hypothesis and can conclude that the residuals are not autocorrelated, which means the residuals from all models are white noise.
 
 ```{r}
-checkresiduals(arima.cv, plot = F)
-checkresiduals(arima.og, plot = F)
+checkresiduals(arima.cv, plot = F, lag = 12)
+checkresiduals(arima.og, plot = F, lag = 12)
 ```
 
 ### Forecasting
